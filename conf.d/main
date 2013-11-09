@@ -40,7 +40,7 @@ chown www-data:www-data $SETTINGS
 drush site-install standard -y \
     --account-name=$ADMIN_NAME \
     --account-pass=$ADMIN_PASS \
-    --site-name="TurnKey Drupal7" --db-su=root --db-su-pw=$MYSQL_PASS --db-url=mysql://$DB_USER:$DB_PASS@localhost/$DB_NAME
+    --site-name="TurnKey Drupal7 LOD SWIB13" --db-su=root --db-su-pw=$MYSQL_PASS --db-url=mysql://$DB_USER:$DB_PASS@localhost/$DB_NAME
 
 chown root:www-data $SETTINGS
 chmod 640 $SETTINGS
@@ -48,6 +48,16 @@ chown -R www-data:www-data $WEBROOT/sites/default/files
 
 # download and install modules
 drush dl --default-major=7 panels backup_migrate devel ckeditor imce recaptcha pathauto globalredirect fivestar webform logintoboggan admin_menu tagadelic lightbox2 google_analytics advanced_help rules jquery_ui token email link date context migrate views features entity content_access variable ctools captcha votingapi i18n
+
+# additional modules for swib13 lod
+drush dl rdfx-7.x-2.x-dev sparql-7.x-2.x-dev sparql_views-7.x-2.x-dev restws
+drush en -y rdfx rdfui
+
+# install Economics taxonomies sandbox module
+cd /tmp
+wget http://drupalcode.org/sandbox/jneubert/1447918.git/snapshot/HEAD.tar.gz
+tar xzf HEAD.tar.gz
+cp -pr 1447918-HEAD-* $WEBROOT/sites/all/modules/econ_taxonomies
 
 LIBRARIES_PATH=$WEBROOT/sites/all/libraries
 mkdir -p $LIBRARIES_PATH/getid3/
