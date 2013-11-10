@@ -1,7 +1,7 @@
 Drupal 7 - Content Management Framework
 =======================================
 
-**Adapted for the SWIB13 `Linked Data Publication with Drupal` workshop**
+**Adapted for the SWIB13 `Linked Data Publication with Drupal`_ workshop**
 
 `Drupal`_ is an open source content management platform licensed under
 the GPL. Equipped with a powerful blend of features, Drupal can support
@@ -59,6 +59,7 @@ and on top of that:
    - `RDF Extensions`_: User Interface for creating RDF mappings and 
      additional serialization formats (Turtle, RDF/XML)
    - `RESTful Web Services`_: Dependency for RDF serializations
+   - ...
 
 - SSL support out of the box.
 - `PHPMyAdmin`_ administration frontend for MySQL (listening on port
