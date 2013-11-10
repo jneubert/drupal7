@@ -1,6 +1,9 @@
 Drupal 7 - Content Management Framework
 =======================================
 
+Adapted to SWIB13 `Linked Data Publication with Drupal` workshop
+----------------------------------------------------------------
+
 `Drupal`_ is an open source content management platform licensed under
 the GPL. Equipped with a powerful blend of features, Drupal can support
 a variety of websites ranging from personal blogs, corporate brochures
@@ -53,6 +56,11 @@ and on top of that:
    - `Link`_: Support URL link field in custom content types.
    - `Date`_: Support Date field in custom content types.
 
+- Additional Drupal modules for the workshop:
+   - `RDF Extensions`_: User Interface for creating RDF mappings and 
+     additional serialization formats (Turtle, RDF/XML)
+   - `RESTful Web Services`_: Dependency for RDF serializations
+
 - SSL support out of the box.
 - `PHPMyAdmin`_ administration frontend for MySQL (listening on port
   12322 - uses SSL).
@@ -92,3 +100,6 @@ Credentials *(passwords set at first boot)*
 .. _Link: http://drupal.org/project/link
 .. _Date: http://drupal.org/project/date
 .. _PHPMyAdmin: http://www.phpmyadmin.net
+.. _Linked Data Publication with Drupal: http://swib.org/swib13/programme.php#abs112
+.. _RDF Extensions: https://drupal.org/project/rdfx
+.. _RESTful Web Services: https://drupal.org/project/restws
