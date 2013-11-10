@@ -1,8 +1,9 @@
 Drupal 7 - Content Management Framework
 =======================================
 
-Adapted for the SWIB13 `Linked Data Publication with Drupal`_ workshop.
-*For the participants: Please follow the instructions on* Installation_
+*Adapted for the SWIB13* `Linked Data Publication with Drupal`_ *workshop.*
+
+*For the workshop participants: Please follow the instructions on* Installation_
 
 `Drupal`_ is an open source content management platform licensed under
 the GPL. Equipped with a powerful blend of features, Drupal can support
@@ -76,7 +77,7 @@ Credentials *(passwords set at first boot)*
 -  Webmin, SSH, MySQL, phpMyAdmin: username **root**
 -  Drupal 7: username **admin**
 
-.. _Installation: Installation
+.. _Installation: https://github.com/jneubert/tkldev-drupal7-lod-swib13/wiki/Installation 
 .. _Drupal: http://drupal.org
 .. _TurnKey Core: http://www.turnkeylinux.org/core
 .. _Panels: http://drupal.org/project/panels
