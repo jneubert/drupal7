@@ -50,7 +50,7 @@ chown -R www-data:www-data $WEBROOT/sites/default/files
 drush dl --default-major=7 panels backup_migrate devel ckeditor imce recaptcha pathauto globalredirect fivestar webform logintoboggan admin_menu tagadelic lightbox2 google_analytics advanced_help rules jquery_ui token email link date context migrate views features entity content_access variable ctools captcha votingapi i18n
 
 # additional modules for swib13 lod
-drush dl rdfx-7.x-2.x-dev sparql-7.x-2.x-dev sparql_views-7.x-2.x-dev restws
+drush dl rdfx-7.x-2.x-dev sparql-7.x-2.x-dev sparql_views-7.x-2.x-dev restws web_taxonomy http_client
 drush en -y rdfx rdfui
 
 # install Economics taxonomies sandbox module
