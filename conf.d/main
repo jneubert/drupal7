@@ -16,6 +16,9 @@ WEBROOT=/var/www/drupal7
 # increase php cli memory limit (for drush)
 sed -i "s|^memory_limit.*|memory_limit = 64M|" /etc/php5/cli/php.ini
 
+# increase php memory limit (recommended for Drupal 7, and sometimes needed)
+sed -i "s|^memory_limit.*|memory_limit = 64M|" /etc/php5/apache2/php.ini
+
 # install drush and configure
 pear channel-discover pear.drush.org
 pear install drush/drush
