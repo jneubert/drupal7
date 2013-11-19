@@ -3,7 +3,7 @@ Drupal 7 - Content Management Framework
 
 *TurnKey Linux applicance, adapted for the SWIB13* `Linked Data Publication with Drupal`_ *workshop.*
 
-*For the workshop participants: Please follow the instructions on* Installation_
+*For the workshop participants: Please follow the instructions on the* Installation_ *page.*
 
 `Drupal`_ is an open source content management platform licensed under
 the GPL. Equipped with a powerful blend of features, Drupal can support
@@ -56,12 +56,19 @@ and on top of that:
    - `Email`_: Support email field in custom content types.
    - `Link`_: Support URL link field in custom content types.
    - `Date`_: Support Date field in custom content types.
+   - `
 
 - Additional Drupal modules for the workshop:
 
    - `RDF Extensions`_: User Interface for creating RDF mappings and 
-     additional serialization formats (Turtle, RDF/XML)
+     additional serialization formats (Turtle, RDF/XML, Ntriples)
+   - `SPARQL`_: Publish data via a SPARQL endpoint
+   - `Web Taxonomy`_: Reference external authority data as taxonomy
+   - `Economics Taxonomies`_: Example Taxonomies (STW, GND persons) (experimental)
+   - `SPARQL Views`_: Access remote SPARQL endpoints via Views
+   - `Schema.org`_: Dedicated schema.org markup
    - `RESTful Web Services`_: Dependency for RDF serializations
+   - `HTTP Client`_: Dependency for Econonmics Taxonomies
    - ...
 
 - SSL support out of the box.
@@ -107,3 +114,10 @@ Credentials *(passwords set at first boot)*
 .. _Linked Data Publication with Drupal: http://swib.org/swib13/programme.php#abs112
 .. _RDF Extensions: https://drupal.org/project/rdfx
 .. _RESTful Web Services: https://drupal.org/project/restws
+.. _SPARQL: https://drupal.org/project/sparql
+.. _SPARQL Views: https://drupal.org/project/sparql_views
+.. _Web Taxonomy: https://drupal.org/project/web_taxonomy
+.. _Economics Taxonomies: https://drupal.org/sandbox/jneubert/1447918
+.. _Schema.org: https://drupal.org/project/schemaorg
+.. _HTTP Client: https://drupal.org/project/http_client
+
