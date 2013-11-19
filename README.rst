@@ -56,7 +56,6 @@ and on top of that:
    - `Email`_: Support email field in custom content types.
    - `Link`_: Support URL link field in custom content types.
    - `Date`_: Support Date field in custom content types.
-   - `
 
 - Additional Drupal modules for the workshop:
 
@@ -69,6 +68,7 @@ and on top of that:
    - `Schema.org`_: Dedicated schema.org markup
    - `RESTful Web Services`_: Dependency for RDF serializations
    - `HTTP Client`_: Dependency for Econonmics Taxonomies
+   - `Strongarm`_, `Recipe`_: Dependencies for Schema.org
    - ...
 
 - SSL support out of the box.
@@ -120,4 +120,7 @@ Credentials *(passwords set at first boot)*
 .. _Economics Taxonomies: https://drupal.org/sandbox/jneubert/1447918
 .. _Schema.org: https://drupal.org/project/schemaorg
 .. _HTTP Client: https://drupal.org/project/http_client
+.. _Strongarm: https://drupal.org/project/strongarm
+.. _Recipe: https://drupal.org/project/recipe
+
 
