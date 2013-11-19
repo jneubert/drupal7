@@ -1,7 +1,7 @@
 Drupal 7 - Content Management Framework
 =======================================
 
-*Adapted for the SWIB13* `Linked Data Publication with Drupal`_ *workshop.*
+*TurnKey Linux applicance, adapted for the SWIB13* `Linked Data Publication with Drupal`_ *workshop.*
 
 *For the workshop participants: Please follow the instructions on* Installation_
 
