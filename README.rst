@@ -69,7 +69,10 @@ and on top of that:
    - `RESTful Web Services`_: Dependency for RDF serializations
    - `HTTP Client`_: Dependency for Econonmics Taxonomies
    - `Strongarm`_, `Recipe`_: Dependencies for Schema.org
-   - ...
+   - `Entity Reference`_: Field type for referencing arbitrary entities
+   - `UUID`_: Adding universally unique identifiers (UUID) to Drupal objects
+   - `Examples for Developers`_: High-quality, well-documented API examples 
+     for a broad range of Drupal core functionality
 
 - SSL support out of the box.
 - `PHPMyAdmin`_ administration frontend for MySQL (listening on port
@@ -122,5 +125,9 @@ Credentials *(passwords set at first boot)*
 .. _HTTP Client: https://drupal.org/project/http_client
 .. _Strongarm: https://drupal.org/project/strongarm
 .. _Recipe: https://drupal.org/project/recipe
+.. _Entity reference: https://drupal.org/project/entityreference
+.. _UUID: https://drupal.org/project/uuid
+.. _Examples for Developers: https://drupal.org/project/examples
+
 
 
