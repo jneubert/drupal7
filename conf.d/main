@@ -58,6 +58,9 @@ drush dl rdfx-7.x-2.x-dev sparql-7.x-2.x-dev sparql_views-7.x-2.x-dev restws web
 # required for schema.org
 drush dl schemaorg-7.x-1.x-dev strongarm recipe
 
+# enable rdfx for downloading the ARC2 library
+drush -y en rdfx
+
 # install Economics taxonomies sandbox module
 cd /tmp
 wget http://drupalcode.org/sandbox/jneubert/1447918.git/snapshot/HEAD.tar.gz
